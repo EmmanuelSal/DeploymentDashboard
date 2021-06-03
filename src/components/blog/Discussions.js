@@ -94,49 +94,49 @@ Discussions.propTypes = {
 };
 
 Discussions.defaultProps = {
-  title: "Discussions",
+  title: "Comments",
   discussions: [
     {
       id: 1,
-      date: "3 days ago",
+      date: "Yesterday",
       author: {
         image: require("../../images/avatars/1.jpg"),
-        name: "John Doe",
+        name: "Marian",
         url: "#"
       },
       post: {
-        title: "Hello World!",
+        title: "Fluid Mechanics",
         url: "#"
       },
-      body: "Well, the way they make shows is, they make one show ..."
+      body: "I am very unsure on how to work out Viscosity ..."
     },
     {
       id: 2,
-      date: "4 days ago",
+      date: "2 days ago",
       author: {
         image: require("../../images/avatars/2.jpg"),
-        name: "John Doe",
+        name: "John",
         url: "#"
       },
       post: {
-        title: "Hello World!",
+        title: "Fluid Mechanics",
         url: "#"
       },
-      body: "After the avalanche, it took us a week to climb out. Now..."
+      body: "How do we work out non-dimensionality? Anyone know?"
     },
     {
       id: 3,
-      date: "5 days ago",
+      date: "3 days ago",
       author: {
         image: require("../../images/avatars/3.jpg"),
-        name: "John Doe",
+        name: "Jessica",
         url: "#"
       },
       post: {
-        title: "Hello World!",
+        title: "Mathematics",
         url: "#"
       },
-      body: "My money's in that office, right? If she start giving me..."
+      body: "Dumb question but how do we multiply matrices together lol?"
     }
   ]
 };

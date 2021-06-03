@@ -32,7 +32,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feFirstName"
                     placeholder="First Name"
-                    value="Sierra"
+                    value="Dr Peter"
                     onChange={() => {}}
                   />
                 </Col>
@@ -42,7 +42,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feLastName"
                     placeholder="Last Name"
-                    value="Brooks"
+                    value="Johnson"
                     onChange={() => {}}
                   />
                 </Col>
@@ -55,7 +55,7 @@ const UserAccountDetails = ({ title }) => (
                     type="email"
                     id="feEmail"
                     placeholder="Email Address"
-                    value="sierra@example.com"
+                    value="PJ@Imperial.ac.uk"
                     onChange={() => {}}
                     autoComplete="email"
                   />
@@ -78,7 +78,7 @@ const UserAccountDetails = ({ title }) => (
                 <FormInput
                   id="feAddress"
                   placeholder="Address"
-                  value="1234 Main St."
+                  value="Exhibition Rd, South Kensington"
                   onChange={() => {}}
                 />
               </FormGroup>
@@ -88,13 +88,13 @@ const UserAccountDetails = ({ title }) => (
                   <label htmlFor="feCity">City</label>
                   <FormInput
                     id="feCity"
-                    placeholder="City"
+                    placeholder="London"
                     onChange={() => {}}
                   />
                 </Col>
                 {/* State */}
                 <Col md="4" className="form-group">
-                  <label htmlFor="feInputState">State</label>
+                  <label htmlFor="feInputState">Region</label>
                   <FormSelect id="feInputState">
                     <option>Choose...</option>
                     <option>...</option>
@@ -105,7 +105,7 @@ const UserAccountDetails = ({ title }) => (
                   <label htmlFor="feZipCode">Zip</label>
                   <FormInput
                     id="feZipCode"
-                    placeholder="Zip"
+                    placeholder="SW7 2BX"
                     onChange={() => {}}
                   />
                 </Col>

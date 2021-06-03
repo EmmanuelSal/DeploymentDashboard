@@ -14,7 +14,7 @@ const BlogOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
     <Row noGutters className="page-header py-4">
-      <PageTitle title="Blog Overview" subtitle="Dashboard" className="text-sm-left mb-3" />
+      <PageTitle title="Select Your Role" subtitle="Mechanical Engineering Learning Dashboard" className="text-sm-left mb-3" />
     </Row>
 
     {/* Small Stats Blocks */}
@@ -75,9 +75,9 @@ BlogOverview.propTypes = {
 BlogOverview.defaultProps = {
   smallStats: [
     {
-      label: "Posts",
-      value: "2,390",
-      percentage: "4.7%",
+      label: "Unanswered Piazza Posts",
+      value: "52",
+      percentage: "9.7%",
       increase: true,
       chartLabels: [null, null, null, null, null, null, null],
       attrs: { md: "6", sm: "6" },
@@ -111,9 +111,9 @@ BlogOverview.defaultProps = {
       ]
     },
     {
-      label: "Comments",
-      value: "8,147",
-      percentage: "3.8%",
+      label: "Student Teams Comments",
+      value: "147",
+      percentage: "5.9%",
       increase: false,
       decrease: true,
       chartLabels: [null, null, null, null, null, null, null],
@@ -130,9 +130,9 @@ BlogOverview.defaultProps = {
       ]
     },
     {
-      label: "New Customers",
+      label: "New Users",
       value: "29",
-      percentage: "2.71%",
+      percentage: "7.9%",
       increase: false,
       decrease: true,
       chartLabels: [null, null, null, null, null, null, null],
@@ -149,8 +149,8 @@ BlogOverview.defaultProps = {
       ]
     },
     {
-      label: "Subscribers",
-      value: "17,281",
+      label: "Active Users",
+      value: "281",
       percentage: "2.4%",
       increase: false,
       decrease: true,

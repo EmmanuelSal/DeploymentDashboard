@@ -61,14 +61,14 @@ UserDetails.propTypes = {
 
 UserDetails.defaultProps = {
   userDetails: {
-    name: "Sierra Brooks",
+    name: "Dr Peter Johnson",
     avatar: require("./../../images/avatars/0.jpg"),
-    jobTitle: "Project Manager",
+    jobTitle: "Fluid Mechanic Lecturer",
     performanceReportTitle: "Workload",
     performanceReportValue: 74,
     metaTitle: "Description",
     metaValue:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?"
+    "Curabitur interdum, leo vel facilisis placerat, dolor libero iaculis velit, eget venenatis tellus velit sit amet augue. Nam sodales interdum odio, a pulvinar ipsum pharetra ac."
   }
 };
 

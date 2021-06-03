@@ -1,30 +1,30 @@
 export default function() {
   return [
     {
-      title: "Blog Dashboard",
-      to: "/blog-overview",
+      title: "Overview",
+      to: "/Overview",
       htmlBefore: '<i class="material-icons">edit</i>',
       htmlAfter: ""
     },
     {
-      title: "Blog Posts",
+      title: "Personal/Academic Tutor",
       htmlBefore: '<i class="material-icons">vertical_split</i>',
-      to: "/blog-posts",
+      to: "/Tutor",
     },
     {
-      title: "Add New Post",
+      title: "Lecturer Portal",
       htmlBefore: '<i class="material-icons">note_add</i>',
-      to: "/add-new-post",
+      to: "/LecturerPortal",
     },
     {
-      title: "Forms & Components",
+      title: "Student Portal",
       htmlBefore: '<i class="material-icons">view_module</i>',
-      to: "/components-overview",
+      to: "/StudentPortal",
     },
     {
-      title: "Tables",
+      title: "Modules",
       htmlBefore: '<i class="material-icons">table_chart</i>',
-      to: "/tables",
+      to: "/Modules",
     },
     {
       title: "User Profile",

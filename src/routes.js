@@ -21,7 +21,7 @@ export default [
     component: () => <Redirect to="/blog-overview" />
   },
   {
-    path: "/blog-overview",
+    path: "/Overview",
     layout: DefaultLayout,
     component: BlogOverview
   },
@@ -31,7 +31,7 @@ export default [
     component: UserProfileLite
   },
   {
-    path: "/add-new-post",
+    path: "/LecturerPortal",
     layout: DefaultLayout,
     component: AddNewPost
   },
@@ -41,17 +41,17 @@ export default [
     component: Errors
   },
   {
-    path: "/components-overview",
+    path: "/StudentPortal",
     layout: DefaultLayout,
     component: ComponentsOverview
   },
   {
-    path: "/tables",
+    path: "/Modules",
     layout: DefaultLayout,
     component: Tables
   },
   {
-    path: "/blog-posts",
+    path: "/Tutor",
     layout: DefaultLayout,
     component: BlogPosts
   }

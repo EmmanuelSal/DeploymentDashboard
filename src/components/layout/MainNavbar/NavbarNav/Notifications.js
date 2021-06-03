@@ -43,11 +43,9 @@ export default class Notifications extends React.Component {
               </div>
             </div>
             <div className="notification__content">
-              <span className="notification__category">Analytics</span>
+              <span className="notification__category">New Post</span>
               <p>
-                Your website’s active users count increased by{" "}
-                <span className="text-success text-semibold">28%</span> in the
-                last week. Great job!
+                Dave has just posted a question
               </p>
             </div>
           </DropdownItem>
@@ -58,11 +56,9 @@ export default class Notifications extends React.Component {
               </div>
             </div>
             <div className="notification__content">
-              <span className="notification__category">Sales</span>
+              <span className="notification__category">Lecturer Comment</span>
               <p>
-                Last week your store’s sales count decreased by{" "}
-                <span className="text-danger text-semibold">5.52%</span>. It
-                could have been worse!
+              I had a lot of questions about tutorial sheet 3. This will be addressed in Lecture
               </p>
             </div>
           </DropdownItem>
